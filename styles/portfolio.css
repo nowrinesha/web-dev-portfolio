@@ -46,6 +46,8 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png); 
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    height: 800px; 
+    /* background-size: cover; */
     /* background size:contain; */
 }
 
@@ -138,4 +140,48 @@ nav li a{
 }
 .section-description{
     padding-bottom: 50px;
+}
+
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    margin-bottom: 50px;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+}
+.experience-description{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-btn-container{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer styles--------- */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 150px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
